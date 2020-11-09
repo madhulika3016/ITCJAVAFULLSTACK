@@ -1,0 +1,44 @@
+<html>
+<head>
+    <title>Form</title>
+    
+</head>
+<body bgcolor="skyblue">
+    <header align="center">Welcome to Registration Page</header>
+    <form action="home.html">
+        <label for:UserName>UserName</label> 
+        <input type="text" name="username"><br><br>
+        <label for:Password>Password</label>
+        <input type="password" name="password"><br><br>
+       
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+
+    <input type="checkbox" id="Degree" name="degree" value="Graduation">
+  <label for="Graduation"> I have a Bachelors Degree</label><br>
+  <input type="checkbox" id="PG" name="PG" value="PG">
+  <label for="PG"> I have a Masters Degree</label><br><br>
+
+
+    <label for="subjects">Choose a subject:</label>
+<select id="subjects" name="subject">
+  <option value="html">HTML</option>
+  <option value="CSS">CSS</option>
+  <option value="JAVASCRIPT">JAVASCRIPT</option>
+  <option value="JAVA">JAVA</option>
+</select><br><br>
+<label for:"Description">Description</label><br>
+<textarea name="Description" rows="10" cols="20">
+    Describe Urself
+    </textarea><br><br>
+<input type="submit" value="Register"><br><br>
+
+<button type="button" onclick="alert('Please fill the form')">Click Here</button>
+</form>
+
+</body>
+</html>
